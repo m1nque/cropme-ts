@@ -1,7 +1,7 @@
 /**
  * @see https://github.com/shpontex/cropme
  */
-declare module 'cropme' {
+declare module 'cropme-ts' {
     export type CropmeOptions = {
         container?: {
             width?: number | string,
@@ -38,9 +38,9 @@ declare module 'cropme' {
         scale: number;
         angle: number;
     }
-    class Cropme {
+    export default class Cropme {
         constructor(el: HTMLElement, options?: CropmeOptions);
-        crop(options?: CropmeOptions): Promise;
+        crop(options?: CropmeOptions): Promise<any>;
         reload(options?: CropmeOptions): void;
 
         resize(): void;
@@ -48,6 +48,4 @@ declare module 'cropme' {
 
         destroy(): void;
     }
-
-    export = Cropme;
 }
