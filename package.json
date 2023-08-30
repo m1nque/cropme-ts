@@ -1,6 +1,5 @@
 {
   "name": "cropme-ts",
-  "types": "index.d.ts",
   "homepage": "https://github.com/m1nque/cropme-ts",
   "author": {
     "name": "m1nque (Pronounce as min Q)",
@@ -9,7 +8,10 @@
   "keywords": [
     "typescript", "image", "crop", "cropme"
   ],
-  "version": "0.1.1-beta.1",
+  "module": "index.js",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "version": "0.1.1-beta.2",
   "description": "`cropme` for Typescript",
   "peerDependencies": {
     "cropme": "1.4.3"
