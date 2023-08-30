@@ -1,6 +1,7 @@
 {
   "name": "@types/cropme",
   "types": "index.d.ts",
+  "version": "0.1.0-beta.1",
   "description": "`cropme` for Typescript",
   "peerDependencies": {
     "cropme": "1.4.3"
