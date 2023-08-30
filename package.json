@@ -6,6 +6,9 @@
     "name": "m1nque (Pronounce as min Q)",
     "url": "https://github.com/m1nque"
   },
+  "keywords": [
+    "typescript", "image", "crop", "cropme"
+  ],
   "version": "0.1.0-beta.2",
   "description": "`cropme` for Typescript",
   "peerDependencies": {
