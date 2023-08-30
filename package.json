@@ -6,14 +6,17 @@
     "url": "https://github.com/m1nque"
   },
   "keywords": [
-    "typescript", "image", "crop", "cropme"
+    "typescript",
+    "image",
+    "crop",
+    "cropme"
   ],
   "module": "index.js",
   "main": "index.js",
   "types": "index.d.ts",
-  "version": "0.1.1-beta.2",
+  "version": "0.1.2-beta.1",
   "description": "`cropme` for Typescript",
-  "peerDependencies": {
-    "cropme": "1.4.3"
+  "dependencies": {
+    "cropme": "^1.4.3"
   }
 }
