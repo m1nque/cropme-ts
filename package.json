@@ -1,0 +1,8 @@
+{
+  "name": "@types/cropme",
+  "types": "index.d.ts",
+  "description": "`cropme` for Typescript",
+  "peerDependencies": {
+    "cropme": "1.4.3"
+  }
+}
